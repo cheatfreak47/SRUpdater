@@ -18,10 +18,11 @@ This patch will update the game to the much more friendly 2004 port, with the [S
 	- maybe even more as the mod loader is in active development.
  - Downloads the latest version of the Sonic R Mod Loader if possible during installation to make sure you're up to date at the time of install.
  - Includes RemoveStrays, a mod to fix various stray pixels in the Menu and HUD throughout the game.
-
+ - Includes ADX Music, a mod that changes out the 2004 port's default `.son` files for much more space efficient `.ADX` format audio that even loops in some cases when appropriate.
 
 ## Usage
 
+1. Install Sonic R (1998) from your retail disc or an ISO image on your PC wherever you'd like. (I recommend `C:\Program Files (x86)\Sega\SonicR`, personally.)
 2. Do not install DirectX 6 when prompted, and ignore any errors that appear after the installation completes from it trying to open the 1998 game.
 3. Download the latest Sonic R Updater and run it.
 4. It should auto-detect the installed location of Sonic R, simply click next or browse to the correct location in the event that it was unable to find the correct path.
