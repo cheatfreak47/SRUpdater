@@ -4,6 +4,23 @@
 Sonic R Updater is an in-development patch for the 1998 port of Sonic R.
 This patch will update the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a couple of small fix mods; ADX Music and RemoveStrays.
 
+## Features
+
+ - Installs on top of the extremely common (and cheap) 1998 port of Sonic R, providing wider accessability to the PC version of the game.
+ - Runs perfectly on modern Windows installations, with little to no configuration required, unlike the vanilla 1998 port it installs over.
+ - Removes the need for a disc to be inserted.
+ - Installs Sonic R Mod Loader into the game, allowing for robust modding support, as well as several additional features:
+	- bass_vgmstream audio support with looping and pausing.
+	- properly bordered windowed mode with custom window size options.
+	- better borderless windowed mode support.
+	- improved game framerate stability for modern hardware.
+	- an array of interesting cheat codes.
+	- maybe even more as the mod loader is in active development.
+ - Downloads the latest version of the Sonic R Mod Loader if possible during installation to make sure you're up to date at the time of install.
+ - Includes RemoveStrays, a mod to fix various stray pixels in the Menu and HUD throughout the game.
+ - Includes ADX Music, a mod that changes out the 2004 port's default `.son` files for much more space effecient `.ADX` format audio that even loops in some cases when apropreate.
+
+
 ## Usage
 
 1. Install Sonic R (1998) from your retail disc or an ISO image on your PC wherever you'd like. (I reccommend `C:\Program Files (x86)\Sega\SonicR`, personally.)
@@ -12,6 +29,8 @@ This patch will update the game to the much more friendly 2004 port, with the [S
 4. It should auto-detect the installed location of Sonic R, simply click next or browse to the correct location in the event that it was unable to find the correct path.
 5. Proceed with the installation. Leave the box checked if you'd like to get familiar with the Sonic R Mod Manager right away.
 6. Shortcuts to Sonic R, Sonic R Mod Manager, Sonic R Uninstaller, and Sonic R Manual are all added to your Windows Start Menu, use the shortcuts there to play the game.
+
+As time goes on, Sonic R Mod Loader may be updated, and thus, the one you installed will become out of date. You may retrieve the latest version of Sonic R Mod Loader at any time from [this link](http://mm.reimuhakurei.net/misc/SonicRModLoader.7z), and install the update manually by dropping the archive contents into your Sonic R Installation folder.
 
 ## Uninstall
 
@@ -48,9 +67,9 @@ Lastly, the Start Menu shortcuts can be removed by right clicking one of them in
 
 **Q:** How 2 Compile?
 
-**A:** Clone the repository, fill in any of the missing files with the ones from the 2004 port (not needed as of yet, but might be if someone complains) and install the two dependencies; Inno Setup and Inno Download Plugin. You might also opt to install Inno Script Studio which was used heavily during development of this software. Anyway, just compile the Sonic R Updater ISS script and you're golden. 
+**A:** Clone the repository and install the two dependencies; Inno Setup and Inno Download Plugin. You might also opt to install Inno Script Studio which was used heavily during development of this software. Anyway, just compile the Sonic R Updater ISS script and you're golden.
 
 ## Legal Junk
 Sonic R Updater, along with it's source are provided without a license of any kind, and are distributed as-is. All resources included are used without permission.
 
-Many of the included resources will be removed from the repository- replaced with a list of the intended resources in this readme at a later date once the project is ready for public release.
+The included game resources may be removed from the repository at a later date- replaced with a list of the intended resources in this readme instead. It's not decided if/when this will happen, but it may eventually.
