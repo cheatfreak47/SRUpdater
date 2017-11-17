@@ -31,7 +31,7 @@ This patch will update the game to the much more friendly 2004 port, with the [S
 
 **Q:** How 2 Compile?
 
-**A:** Clone the repository, fill in any of the missing files with the ones from the 2004 port (not needed as of yet, but might be if someone complains) and instll the two dependencies. This being the latest Inno Setup and Inno Download Plugin. Inno Script Studio reccommended.
+**A:** Clone the repository, fill in any of the missing files with the ones from the 2004 port (not needed as of yet, but might be if someone complains) and install the two dependencies. Those being the latest Inno Setup and Inno Download Plugin. Inno Script Studio reccommended. Compile the Sonic R Updater ISS script and you're golden, probably.
 
 ### Legal Junk
 Sonic R Updater, along with it's source are provided without a license of any kind, and are distributed as-is. All resources included are used without permission.
