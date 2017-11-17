@@ -1,5 +1,5 @@
 #define AppName "Sonic R Updater"
-#define AppVersion "RC3"
+#define AppVersion "1.0"
 #define GameName "Sonic R"
 
 [Setup]
