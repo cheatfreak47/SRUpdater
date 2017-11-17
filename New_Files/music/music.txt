@@ -1,0 +1,26 @@
+See, usually a collection of the 2004 port's massive uncompressed *.son files would go here but that would inflate the size of Sonic R Updater by a huge margin. 
+
+Instead, I've opted to include my ADX Music mod, which includes better audio tracks generally anyway, and those are much more size effective. (Like 600MB for SON files vs like 150MB for ADX Music.)
+
+If you want to use original PC version SON music files, seek them out yourself or rip the Sonic R 1998 audio from the CD as WAV and use ffmpeg to turn the files into RAW Signed 16-bit Little Endian Stereo 44100Hz PCM and drop the files here named as follows, ordered as they were on the disc.
+
+track2.son
+track3.son
+track4.son
+track5.son
+track6.son
+track7.son
+track8.son
+track9.son
+track10.son
+track11.son
+track12.son
+track13.son
+track14.son
+track15.son
+track16.son
+track17.son
+track18.son
+track19.son
+track20.son
+track21.son
