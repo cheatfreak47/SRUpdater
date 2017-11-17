@@ -1,9 +1,9 @@
 ## Sonic R Updater
-![Image of SRUpdater](!https://raw.githubusercontent.com/cheatfreak47/SRUpdater/master/repo.png))
+![Image of SRUpdater](https://raw.githubusercontent.com/cheatfreak47/SRUpdater/master/repo.png))
 Sonic R Updater is an in-development patch for the 1998 port of Sonic R.
 This patch will update the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a couple of small fix mods; ADX Music and RemoveStrays.
 
-### Credits
+### Credits	
 #### CheatFreak
  - Project Lead Planner, Designer, and Coder
  - ADX Music Mod
