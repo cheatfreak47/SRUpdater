@@ -15,3 +15,9 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+# Ignore Statistics for Game Resources
+2004_Files/* linguist-vendored
+Replace_Files/* linguist-vendored
+New_Files/* linguist-vendored
+Temp_Files/* linguist-vendored
