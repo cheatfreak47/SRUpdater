@@ -4,6 +4,20 @@
 Sonic R Updater is an in-development patch for the 1998 port of Sonic R.
 This patch will update the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a couple of small fix mods; ADX Music and RemoveStrays.
 
+## Usage
+
+1. Install Sonic R (1998) from your retail disc or an ISO image on your PC wherever you'd like. (I reccommend `C:\Program Files (x86)\Sega\SonicR`, personally.)
+2. Do not install DirectX 6 when prompted, and ignore any errors that apper after the installation completes from it trying to open the 1998 game.
+3. Download the latest Sonic R Updater and run it.
+4. It should auto-detect the installed location of Sonic R, simply click next or browse to the correct location in the event that it was unable to find the correct path.
+5. Proceed with the installation. Leave the box checked if you'd like to get familiar with the Sonic R Mod Manager right away.
+6. Shortcuts to Sonic R, Sonic R Mod Manager, Sonic R Uninstaller, and Sonic R Manual are all added to your Windows Start Menu, use the shortcuts there to play the game.
+
+### Uninstallation
+
+What's that? You don't like this patch? (I can't imagine why you wouldn't...)
+Well, to remove it, just uninstall Sonic R normally with the provided shortcut, and then navigate to the installation folder and delete any remaining files, except for the `save` and `ghost` folders. Note that this will remove any mods that remain.
+
 ### Credits	
 #### CheatFreak
  - Project Lead Planner, Designer, and Coder
