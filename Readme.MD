@@ -16,7 +16,7 @@ This patch will update the game to the much more friendly 2004 port, with the [S
  
 #### MainMemory
  - Sonic R Mod Loader Programmer
- - Special Thanks, without him this project wouldn't exist
+ - Special Thanks, without them this project wouldn't exist
 
 ### F.A.Q.
 **Q:** Is this speedrun legal?
