@@ -6,10 +6,10 @@ This patch will update the game to the much more friendly 2004 port, with the [S
 
 ## Features
 
- - Installs on top of the extremely common (and cheap) 1998 port of Sonic R, providing wider accessability to the PC version of the game.
+ - Installs on top of the extremely common (and cheap) 1998 port of Sonic R, providing wider accessibility to the PC version of the game.
  - Runs perfectly on modern Windows installations, with little to no configuration required, unlike the vanilla 1998 port it installs over.
- - Removes the need for a disc to be inserted.
  - Installs Sonic R Mod Loader into the game, allowing for robust modding support, as well as several additional features:
+	- Removes the need for a disc to be inserted.
 	- bass_vgmstream audio support with looping and pausing.
 	- properly bordered windowed mode with custom window size options.
 	- better borderless windowed mode support.
@@ -18,12 +18,10 @@ This patch will update the game to the much more friendly 2004 port, with the [S
 	- maybe even more as the mod loader is in active development.
  - Downloads the latest version of the Sonic R Mod Loader if possible during installation to make sure you're up to date at the time of install.
  - Includes RemoveStrays, a mod to fix various stray pixels in the Menu and HUD throughout the game.
- - Includes ADX Music, a mod that changes out the 2004 port's default `.son` files for much more space effecient `.ADX` format audio that even loops in some cases when apropreate.
 
 
 ## Usage
 
-1. Install Sonic R (1998) from your retail disc or an ISO image on your PC wherever you'd like. (I reccommend `C:\Program Files (x86)\Sega\SonicR`, personally.)
 2. Do not install DirectX 6 when prompted, and ignore any errors that appear after the installation completes from it trying to open the 1998 game.
 3. Download the latest Sonic R Updater and run it.
 4. It should auto-detect the installed location of Sonic R, simply click next or browse to the correct location in the event that it was unable to find the correct path.
