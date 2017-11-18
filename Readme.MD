@@ -1,13 +1,13 @@
 # Sonic R Updater
 ![Image of SRUpdater](https://raw.githubusercontent.com/cheatfreak47/SRUpdater/master/repo.png)
 
-Sonic R Updater is an in-development patch for the 1998 port of Sonic R.
-This patch will update the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a couple of small fix mods; ADX Music and RemoveStrays.
+Sonic R Updater is a patch for the PC ports of Sonic R.
+This patch will update any version of the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a couple of small fix mods; ADX Music and RemoveStrays.
 
 ## Features
 
  - Installs on top of the extremely common (and cheap) 1998 port of Sonic R, providing wider accessibility to the PC version of the game.
- - Runs perfectly on modern Windows installations, with little to no configuration required, unlike the vanilla 1998 port it installs over.
+ - Runs perfectly on modern Windows installations, with little to no configuration required, unlike the vanilla 1998 port.
  - Installs Sonic R Mod Loader into the game, allowing for robust modding support, as well as several additional features:
 	- Removes the need for a disc to be inserted.
 	- bass_vgmstream audio support with looping and pausing.
@@ -22,20 +22,20 @@ This patch will update the game to the much more friendly 2004 port, with the [S
 
 ## Usage
 
-1. Install Sonic R (1998) from your retail disc or an ISO image on your PC wherever you'd like. (I recommend `C:\Program Files (x86)\Sega\SonicR`, personally.)
-2. Do not install DirectX 6 when prompted, and ignore any errors that appear after the installation completes from it trying to open the 1998 game.
+1. Install Sonic R from your retail disc or an ISO image on your PC wherever you'd like. (I recommend `C:\Program Files (x86)\Sega\SonicR`, personally.)
+2. Do not install DirectX 6 when prompted, and ignore any errors that appear after the installation completes from it trying to open the 1998 game. Ignore this step if you by some chance actually have the 2004 port, which also works.
 3. Download the latest Sonic R Updater and run it.
 4. It should auto-detect the installed location of Sonic R, simply click next or browse to the correct location in the event that it was unable to find the correct path.
 5. Proceed with the installation. Leave the box checked if you'd like to get familiar with the Sonic R Mod Manager right away.
-6. Shortcuts to Sonic R, Sonic R Mod Manager, Sonic R Uninstaller, and Sonic R Manual are all added to your Windows Start Menu, use the shortcuts there to play the game.
+6. Shortcuts to `Sonic R`, `Sonic R Mod Manager`, and `Sonic R Help` are all added to your Windows Start Menu, use the shortcuts there to play the game.
 
-As time goes on, Sonic R Mod Loader may be updated, and thus, the one you installed will become out of date. You may retrieve the latest version of Sonic R Mod Loader at any time from [this link](http://mm.reimuhakurei.net/misc/SonicRModLoader.7z), and install the update manually by dropping the archive contents into your Sonic R Installation folder.
+As time goes on, Sonic R Mod Loader may be updated, and thus, the one you installed will become out of date. You can update Sonic R Mod Loader by running Sonic R Updater again, or you can [download it manually](http://mm.reimuhakurei.net/misc/SonicRModLoader.7z) and drop the archive contents into your Sonic R Installation folder.
 
 ## Uninstall
 
 What's that? You don't like this patch? I can't imagine why you wouldn't... unless you just don't like Sonic R. In which case, clearly you're delusional, because Sonic R is obviously the best Sonic game. 
 
-Well, in any case, to remove it, just uninstall Sonic R normally with the provided shortcut, and then navigate to the installation folder and delete any remaining files. You may leave behind the `save` and `ghost` folders if you wish to avoid losing any save games, and you should keep the `mods` folder if you developed any mods and have their resources laying around in there.
+Well, in any case, to remove it, just uninstall Sonic R normally by opening `Control Panel` → `Programs` → `Uninstall a Program` → `SonicR`, and then, after the Uninstall has finished, navigate to the installation folder and delete any remaining files. You may leave behind the `save` and `ghost` folders if you wish to avoid losing any save games, and you should keep the `mods` folder if you developed any mods and have their resources laying around in there.
 
 Lastly, the Start Menu shortcuts can be removed by right clicking one of them in the Start Menu, and going to `More` → `Open file location`, followed by clicking the Up One Level button (↑) and deleting the `SonicR` folder in `Sega`. If you don't have any other Sega games installed, you may also want to delete the `Sega` folder to remove it from your Start Menu as well.
 
@@ -47,7 +47,7 @@ Lastly, the Start Menu shortcuts can be removed by right clicking one of them in
 
 #### Carlmundo
  - Help with misc. Pascal code
- - Lead Coder of BetterSADX and Tomb Raider AutoPatch, which some of the pascal code in this project is based on
+ - Lead Coder of BetterSADX and Tomb Raider AutoPatch, which some of the Pascal code in this project is based on
  
 #### MainMemory
  - Sonic R Mod Loader Programmer
