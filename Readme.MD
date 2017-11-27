@@ -2,16 +2,17 @@
 ![Image of SRUpdater](https://raw.githubusercontent.com/cheatfreak47/SRUpdater/master/repo.png)
 
 Sonic R Updater is a patch for the PC ports of Sonic R.
-This patch will update any version of the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a couple of small fix mods; ADX Music and RemoveStrays.
+This patch will update any version of the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a couple of small fix mods; ADX Music and RemoveStrays.	
 
 ## Features
 
- - Installs on top of the extremely common (and cheap) 1998 port of Sonic R, providing wider accessibility to the PC version of the game.
+ - Can install on top of the extremely common (and cheap) 1998 port of Sonic R, providing wider accessibility to the PC version of the game.
  - Runs perfectly on modern Windows installations, with little to no configuration required, unlike the vanilla 1998 port.
  - Installs Sonic R Mod Loader into the game, allowing for robust modding support, as well as several additional features:
 	- Removes the need for a disc to be inserted.
 	- bass_vgmstream audio support with looping and pausing.
 	- properly bordered windowed mode with custom window size options.
+	- custom resolution with proper widescreen support.
 	- better borderless windowed mode support.
 	- improved game framerate stability for modern hardware.
 	- an array of interesting cheat codes.
@@ -39,21 +40,30 @@ Well, in any case, to remove it, just uninstall Sonic R normally by opening `Con
 
 Lastly, the Start Menu shortcuts can be removed by right clicking one of them in the Start Menu, and going to `More` → `Open file location`, followed by clicking the Up One Level button (↑) and deleting the `SonicR` folder in `Sega`. If you don't have any other Sega games installed, you may also want to delete the `Sega` folder to remove it from your Start Menu as well.
 
-## Credits	
+## Credits
+	
 #### CheatFreak
- - Project Lead Planner, Designer, and Coder
+ - Sonic R Updater project leader
+ - InnoSetup Script Writer
+ - Pascal Code Writer 
  - ADX Music Mod
  - RemoveStrays Mod
 
 #### Carlmundo
- - Help with misc. Pascal code
+ - Pascal Code Writer
  - Lead Coder of BetterSADX and Tomb Raider AutoPatch, which some of the Pascal code in this project is based on
+ - Special Thanks, for being a good friend
  
 #### MainMemory
  - Sonic R Mod Loader Programmer
- - Special Thanks, without them this project wouldn't exist
+ - Special Thanks, without them this project couldn't exist
+ 
+#### InvisibleUp
+ - Widescreen support in the Sonic R Mod Loader
+ - Special Thanks, for making some cool Sonic R mods
 
 ## F.A.Q.
+
 **Q:** Is this speedrun legal?
 
 **A:** Not officially... [yet...](https://www.speedrun.com/Sonic_R/thread/zc91h) ...but technically it _should be._ Neither ADX Music or RemoveStrays are code based mods, and thus have no effect on how the game performs or behaves in any way, outside of extremely minor, nearly unnoticable cosmetic differences in UI Textures and Audio Quality. The only changes to the game made by Sonic R Mod Loader are also purely cosmetic, save for fixing a bug that caused terrible framerates on any modern Windows OS. (I think should get a pass because it's just making the game behave like it's supposed to on any machine, and the bug is caused by changes to Windows and changes to how hardware works, not the game itself, which normally performs as expected on a period computer with the apropreate Windows OS.)
