@@ -32,6 +32,15 @@ This patch will update any version of the game to the much more friendly 2004 po
 
 As time goes on, Sonic R Mod Loader may be updated, and thus, the one you installed will become out of date. You can update Sonic R Mod Loader by running Sonic R Updater again, or you can [download it manually](http://mm.reimuhakurei.net/misc/SonicRModLoader.7z) and drop the archive contents into your Sonic R Installation folder.
 
+## Troubleshooting &  Issues
+**Problem:** When I go to install Sonic R I get a "This app can't run on your PC" error.
+
+**Solution:** The Sonic R (1998) _autorun_ program cannot run on 64-bit Windows due to being a 16-bit executable. To work around this, right click on the disc drive and choose "Open" or "Explore" and double click on `Setup.exe` instead. This should allow you to install Sonic R properly.
+
+**Problem:** Sonic R Mod Manager giving exception errors.
+
+**Solution:** Sonic R Mod Manager may give you errors about saving it's configuration if it is unable to write to it's settings file due to user permissions. To fix this, you can take ownership of the folder Sonic R is installed to. Click [here](https://gfycat.com/HardtofindFeminineAmericanwigeon) for a gif showing how to do that.
+
 ## Uninstall
 
 What's that? You don't like this patch? I can't imagine why you wouldn't... unless you just don't like Sonic R. In which case, clearly you're delusional, because Sonic R is obviously the best Sonic game. 
