@@ -1,5 +1,5 @@
 #define AppName "Sonic R Updater"
-#define AppVersion "1.0.5"
+#define AppVersion "1.0.6"
 #define GameName "Sonic R"
 #include <idp.iss>
 
@@ -118,12 +118,12 @@ begin
     begin
     end
     //Check 64bit registry for Sonic R 1998
-    else if RegQueryStringValue(HKLM64, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Sonic R',
+    else if IsWin64 and RegQueryStringValue(HKLM64, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Sonic R',
      'UninstallString', InstalledDir) then
     begin
     end
     //Check 64bit registry for Sonic R 2004
-    else if RegQueryStringValue(HKLM64, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{520ED6C2-499D-48E7-A9E9-55E247622603}',
+    else if IsWin64 and RegQueryStringValue(HKLM64, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{520ED6C2-499D-48E7-A9E9-55E247622603}',
      'InstallLocation', InstalledDir) then
     begin
     end
