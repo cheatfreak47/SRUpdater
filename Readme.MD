@@ -20,6 +20,7 @@ This patch will update any version of the game to the much more friendly 2004 po
  - Downloads the latest version of the Sonic R Mod Loader if possible during installation to make sure you're up to date at the time of install.
  - Includes RemoveStrays, a mod to fix various stray pixels in the Menu and HUD throughout the game.
  - Includes ADX Music, a mod that changes out the 2004 port's default `.son` files for much more space efficient `.ADX` format audio that even loops in some cases when appropriate.
+ - Includes Saturn Style Colors, a mod that improves the lighting of the game to further match the Sega Saturn original and makes Radiant Emerald semi-transparent again.
 
 ## Usage
 
