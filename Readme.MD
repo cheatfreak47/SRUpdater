@@ -14,7 +14,7 @@ This patch will update any version of the game to the much more friendly 2004 po
 	- properly bordered windowed mode with custom window size options.
 	- custom resolution with proper widescreen support.
 	- better borderless windowed mode support.
-	- improved game framerate stability for modern hardware.
+	- improved game frame rate stability for modern hardware.
 	- an array of interesting cheat codes.
 	- maybe even more as the mod loader is in active development.
  - Downloads the latest version of the Sonic R Mod Loader if possible during installation to make sure you're up to date at the time of install.
@@ -69,6 +69,7 @@ Lastly, the Start Menu shortcuts can be removed by right clicking one of them in
  - Special Thanks, without them this project couldn't exist
  
 #### InvisibleUp
+ - Saturn Style Colors Mod
  - Widescreen support in the Sonic R Mod Loader
  - Special Thanks, for making some cool Sonic R mods
 
@@ -76,12 +77,12 @@ Lastly, the Start Menu shortcuts can be removed by right clicking one of them in
 
 **Q:** Is this speedrun legal?
 
-**A:** Not officially... [yet...](https://www.speedrun.com/Sonic_R/thread/zc91h) ...but technically it _should be._ Neither ADX Music or RemoveStrays are code based mods, and thus have no effect on how the game performs or behaves in any way, outside of extremely minor, nearly unnoticable cosmetic differences in UI Textures and Audio Quality. The only changes to the game made by Sonic R Mod Loader are also purely cosmetic, save for fixing a bug that caused terrible framerates on any modern Windows OS. (I think should get a pass because it's just making the game behave like it's supposed to on any machine, and the bug is caused by changes to Windows and changes to how hardware works, not the game itself, which normally performs as expected on a period computer with the apropreate Windows OS.)
+**A:** Not officially... [yet...](https://www.speedrun.com/Sonic_R/thread/zc91h) ...but technically it _should be._ Neither ADX Music or RemoveStrays are code based mods, and thus have no effect on how the game performs or behaves in any way, outside of extremely minor, nearly unnoticeable cosmetic differences in UI Textures and Audio Quality. The only changes to the game made by Sonic R Mod Loader are also purely cosmetic, save for fixing a bug that caused terrible frame rates on any modern Windows OS. (I think should get a pass because it's just making the game behave like it's supposed to on any machine, and the bug is caused by changes to Windows and changes to how hardware works, not the game itself, which normally performs as expected on a period computer with the appropriate Windows OS.)
 
 
 **Q:** 2004 port? Why haven't I heard of this before?
 
-**A:** It's just really obscure and quite rare, only being released in limitied quantities in the UK and Australia. (to our current knowledge, at least...) On top of that, the boxes are not even labeled accordingly, and that makes tracking copies down rather difficult. It's as though they just treated the entire port as _just another reprint of the 1998 port._ Oh well, can't expect too much from Sonic R, right?
+**A:** It's just really obscure and quite rare, only being released in limited quantities in the UK and Australia. (to our current knowledge, at least...) On top of that, the boxes are not even labeled accordingly, and that makes tracking copies down rather difficult. It's as though they just treated the entire port as _just another reprint of the 1998 port._ Oh well, can't expect too much from Sonic R, right?
 
 
 **Q:** How 2 Compile?
