@@ -2,7 +2,7 @@
 ![Image of SRUpdater](https://raw.githubusercontent.com/cheatfreak47/SRUpdater/master/repo.png)
 
 Sonic R Updater is a patch for the PC ports of Sonic R.
-This patch will update any version of the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a couple of small fix mods; ADX Music and RemoveStrays.	
+This patch will update any version of the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a few helpful mods for it.
 
 ## Features
 
@@ -21,6 +21,7 @@ This patch will update any version of the game to the much more friendly 2004 po
  - Includes RemoveStrays, a mod to fix various stray pixels in the Menu and HUD throughout the game.
  - Includes ADX Music, a mod that changes out the 2004 port's default `.son` files for much more space efficient `.ADX` format audio that even loops in some cases when appropriate.
  - Includes Saturn Style Colors, a mod that improves the lighting of the game to further match the Sega Saturn original and makes Radiant Emerald semi-transparent again.
+ - Includes EggRobo Texture Fix, a mod that fixes a minor bug involving the texture of EggRobo.
 
 ## Usage
 
@@ -70,6 +71,7 @@ Lastly, the Start Menu shortcuts can be removed by right clicking one of them in
  
 #### InvisibleUp
  - Saturn Style Colors Mod
+ - EggRobo Texture Fix Mod
  - Widescreen support in the Sonic R Mod Loader
  - Special Thanks, for making some cool Sonic R mods
 

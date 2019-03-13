@@ -1,5 +1,5 @@
 #define AppName "Sonic R Updater"
-#define AppVersion "1.0.8"
+#define AppVersion "1.0.9"
 #define GameName "Sonic R"
 #include <idp.iss>
 
