@@ -41,7 +41,7 @@ As time goes on, Sonic R Mod Loader may be updated, and thus, the one you instal
 
 **Problem:** Sonic R Mod Manager giving exception errors.
 
-**Solution:** Sonic R Mod Manager may give you errors about saving it's configuration if it is unable to write to it's settings file due to user permissions. To fix this, you can take ownership of the folder Sonic R is installed to. Click [here](https://gfycat.com/HardtofindFeminineAmericanwigeon) for a gif showing how to do that.
+**Solution:** Sonic R Mod Manager may give you errors about saving it's configuration if it is unable to write to it's settings file due to user permissions. To fix this, you can take ownership of the folder Sonic R is installed to. Click [here](https://gfycat.com/HardtofindFeminineAmericanwigeon) for a gif showing how to do that. This should no longer be a problem as of 1.0.10.
 
 ## Uninstall
 
