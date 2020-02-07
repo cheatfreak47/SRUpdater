@@ -1,5 +1,5 @@
 #define AppName "Sonic R Updater"
-#define AppVersion "1.0.9"
+#define AppVersion "1.0.10"
 #define GameName "Sonic R"
 #include <idp.iss>
 
@@ -83,6 +83,9 @@ Type: files; Name: "{app}\programming\SonicRModLoader.h"
 Type: files; Name: "{app}\programming\MemAccess.h"
 Type: filesandordirs; Name: "{app}\mods\ADXMusic"
 Type: filesandordirs; Name: "{app}\mods\RemoveStrays"
+
+[Dirs]
+Name: "{app}"; Permissions: users-full
 
 [Files]
 Source: ".\2004_Files\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
