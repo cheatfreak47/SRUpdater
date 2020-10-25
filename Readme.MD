@@ -26,7 +26,7 @@ This patch will update any version of the game to the much more friendly 2004 po
 ## Usage
 
 1. Install Sonic R from your retail disc or an ISO image on your PC wherever you'd like. (I recommend `C:\Program Files (x86)\Sega\SonicR`, personally.)
-2. Do not install DirectX 6 when prompted, and ignore any errors that appear after the installation completes from it trying to open the 1998 game. Ignore this step if you by some chance actually have the 2004 port, which also works.
+2. Do not install DirectX 6 when prompted. You do not need to install the DirectPlay Windows Feature, and ignore any errors that appear after the installation completes from it trying to open the 1998 game. Ignore this step if you by some chance actually have the 2004 port, which also works.
 3. Download the latest Sonic R Updater and run it.
 4. It should auto-detect the installed location of Sonic R, simply click next or browse to the correct location in the event that it was unable to find the correct path.
 5. Proceed with the installation. Leave the box checked if you'd like to get familiar with the Sonic R Mod Manager right away.
