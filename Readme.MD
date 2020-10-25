@@ -1,7 +1,7 @@
 # Sonic R Updater
 ![Image of SRUpdater](https://raw.githubusercontent.com/cheatfreak47/SRUpdater/master/repo.png)
+### Sonic R Updater is a patch for the PC ports of Sonic R.
 
-Sonic R Updater is a patch for the PC ports of Sonic R.
 This patch will update any version of the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a few helpful mods for it.
 
 ## Features
@@ -25,7 +25,7 @@ This patch will update any version of the game to the much more friendly 2004 po
 
 ## Usage
 
-1. Install Sonic R from your retail disc or an ISO image on your PC wherever you'd like. (I recommend `C:\Program Files (x86)\Sega\SonicR`, personally.)
+1. Install Sonic R from your retail disc or an ISO image on your PC wherever you'd like. (I recommend `C:\Program Files (x86)\Sega\SonicR`, personally.) If you get an error saying "This app can't run on your PC", right click on the disc drive and choose `Open` or `Explore` and double click on `Setup.exe` instead.
 2. Do not install DirectX 6 when prompted. You do not need to install the DirectPlay Windows Feature, and ignore any errors that appear after the installation completes from it trying to open the 1998 game. Ignore this step if you by some chance actually have the 2004 port, which also works.
 3. Download the latest Sonic R Updater and run it.
 4. It should auto-detect the installed location of Sonic R, simply click next or browse to the correct location in the event that it was unable to find the correct path.
@@ -37,11 +37,7 @@ As time goes on, Sonic R Mod Loader may be updated, and thus, the one you instal
 ## Troubleshooting &  Issues
 **Problem:** When I go to install Sonic R I get a "This app can't run on your PC" error.
 
-**Solution:** The Sonic R (1998) _autorun_ program cannot run on 64-bit Windows due to being a 16-bit executable. To work around this, right click on the disc drive and choose "Open" or "Explore" and double click on `Setup.exe` instead. This should allow you to install Sonic R properly.
-
-**Problem:** Sonic R Mod Manager giving exception errors.
-
-**Solution:** Sonic R Mod Manager may give you errors about saving it's configuration if it is unable to write to it's settings file due to user permissions. To fix this, you can take ownership of the folder Sonic R is installed to. Click [here](https://gfycat.com/HardtofindFeminineAmericanwigeon) for a gif showing how to do that. This should no longer be a problem as of 1.0.10.
+**Solution:** As stated above, the Sonic R (1998) _autorun_ program cannot run on 64-bit Windows due to being a 16-bit executable. To work around this, right click on the disc drive and choose "Open" or "Explore" and double click on `Setup.exe` instead. This should allow you to install Sonic R properly.
 
 ## Uninstall
 
@@ -50,6 +46,28 @@ What's that? You don't like this patch? I can't imagine why you wouldn't... unle
 Well, in any case, to remove it, just uninstall Sonic R normally by opening `Control Panel` → `Programs` → `Uninstall a Program` → `SonicR`, and then, after the Uninstall has finished, navigate to the installation folder and delete any remaining files. You may leave behind the `save` and `ghost` folders if you wish to avoid losing any save games, and you should keep the `mods` folder if you developed any mods and have their resources laying around in there.
 
 Lastly, the Start Menu shortcuts can be removed by right clicking one of them in the Start Menu, and going to `More` → `Open file location`, followed by clicking the Up One Level button (↑) and deleting the `SonicR` folder in `Sega`. If you don't have any other Sega games installed, you may also want to delete the `Sega` folder to remove it from your Start Menu as well.
+
+## F.A.Q.
+
+**Q:** Is this speedrun legal?
+
+**A:** [Not yet](https://www.speedrun.com/Sonic_R/thread/zc91h) but a speedrun category could be made, if there's enough community push for it. Technically, neither ADX Music or RemoveStrays are code based mods, and thus have no effect on how the game performs or behaves in any way, outside of extremely minor, nearly unnoticeable cosmetic differences in UI Textures and Audio Quality. The only changes to the game made by Sonic R Mod Loader are also purely cosmetic, save for fixing a bug that caused terrible frame rates on any modern Windows OS. (I think should get a pass because it's just making the game behave like it's supposed to on any machine, and the bug is caused by changes to Windows and changes to how hardware works, not the game itself, which normally performs as expected on a period computer with the appropriate Windows OS.)
+
+
+**Q:** 2004 port? Why haven't I heard of this before?
+
+**A:** It's just really obscure and quite rare, only being released in limited quantities in the UK and Australia. (to our current knowledge, at least...) On top of that, the boxes are not even labeled accordingly, and that makes tracking copies down rather difficult. It's as though they just treated the entire port as _just another reprint of the 1998 port._ Oh well, can't expect too much from Sonic R, right?
+
+
+**Q:** How do I play in network multiplayer mode?
+
+**A:** The short answer is you can't. The long answer is that the 2004 port of Sonic R this is based on removed all network play from the game for whatever reason. It's theroretically possible for it to be modded back or for someone to create an online multiplayer mod, similar to [SA2 Battle Network](
+https://github.com/michael-fadely/sa2-battle-network), but that's probably not going to happen, since there seems to be little interest in modding Sonic R generally. Please do let me know if you make that mod though, I'd love to include it if it ever comes to exist.
+
+
+**Q:** How 2 Compile?
+
+**A:** Clone the repository and install the two dependencies; Inno Setup and Inno Download Plugin. You might also opt to install Inno Script Studio which was used heavily during development of this software. Anyway, just compile the Sonic R Updater ISS script and you're golden.
 
 ## Credits
 	
@@ -74,22 +92,6 @@ Lastly, the Start Menu shortcuts can be removed by right clicking one of them in
  - EggRobo Texture Fix Mod
  - Widescreen support in the Sonic R Mod Loader
  - Special Thanks, for making some cool Sonic R mods
-
-## F.A.Q.
-
-**Q:** Is this speedrun legal?
-
-**A:** Not officially... [yet...](https://www.speedrun.com/Sonic_R/thread/zc91h) ...but technically it _should be._ Neither ADX Music or RemoveStrays are code based mods, and thus have no effect on how the game performs or behaves in any way, outside of extremely minor, nearly unnoticeable cosmetic differences in UI Textures and Audio Quality. The only changes to the game made by Sonic R Mod Loader are also purely cosmetic, save for fixing a bug that caused terrible frame rates on any modern Windows OS. (I think should get a pass because it's just making the game behave like it's supposed to on any machine, and the bug is caused by changes to Windows and changes to how hardware works, not the game itself, which normally performs as expected on a period computer with the appropriate Windows OS.)
-
-
-**Q:** 2004 port? Why haven't I heard of this before?
-
-**A:** It's just really obscure and quite rare, only being released in limited quantities in the UK and Australia. (to our current knowledge, at least...) On top of that, the boxes are not even labeled accordingly, and that makes tracking copies down rather difficult. It's as though they just treated the entire port as _just another reprint of the 1998 port._ Oh well, can't expect too much from Sonic R, right?
-
-
-**Q:** How 2 Compile?
-
-**A:** Clone the repository and install the two dependencies; Inno Setup and Inno Download Plugin. You might also opt to install Inno Script Studio which was used heavily during development of this software. Anyway, just compile the Sonic R Updater ISS script and you're golden.
 
 ## Legal Junk
 Sonic R Updater, along with it's source are provided without a license of any kind, and are distributed as-is. All resources included are used without permission.
