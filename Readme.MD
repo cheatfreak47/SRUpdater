@@ -34,6 +34,24 @@ This patch will update any version of the game to the much more friendly 2004 po
 
 As time goes on, Sonic R Mod Loader may be updated, and thus, the one you installed will become out of date. You can update Sonic R Mod Loader by running Sonic R Updater again, or you can [download it manually](http://mm.reimuhakurei.net/misc/SonicRModLoader.7z) and drop the archive contents into your Sonic R Installation folder.
 
+## Usage (Steam Deck)
+
+__Prerequisites:__
+ - GE-Proton9-27. (I recommend using Wine Cellar to do this.)
+ - Protontricks. (I recommend obtaining it from the Discover Store.)
+
+1. Copy the contents of the root directory of your retail disc into a folder named `SonicR` and transfer it to your Steam Deck using whatever means you'd like.
+2. Move the `SonicR` folder wherever you like to put sideloaded Windows games on your Steam Deck. **It needs to be a place you can navigate to within a file browser opened by a program running under Protontricks.**
+3. Right click on `sonicr.exe` and choose `Add to Steam`. Navigate to this entry in Steam and open it's `Properties` menu. Change the name to "Sonic R" and then click on the `Compatibility` section. Tick the box to enable forcing a specific proton build, and set it to GE-Proton9-27.
+4. Close properties and attempt to run Sonic R from Steam. It will fail to run, but will generate the needed prefix for Protontricks.
+5. Download the latest Sonic R Updater and run it under the `Non-Steam shortcut: Sonic R` prefix with Protontricks.
+6. Click `Browse...` and navigate to the folder where your `sonicr.exe` is located. If you cannot find it, then you probably need to put your `SonicR` folder somewhere accessible from this menu. After that, click next and complete the installation.
+7. Open `SonicRModManager.exe` under the `Non-Steam shortcut: Sonic R` prefix with Protontricks.
+8. From this menu, you can manage mods, edit graphics settings. On Steam Deck, under graphics, I suggest unchecking "Windowed" and checking "Windowed Fullscreen" and setting the resolution to 1067 x 800 for 4:3, or 1280 x 800 for 16:10.
+9. Click Save once you've made your changes.
+
+The Steam Deck runs Sonic are perfectly, as you might imagine, but you might run into issues with the controls. By default, the L3 (Left Stick Click) is mapped to "Start". Use this to get into the Options menu and configure the controls properly. I also suggest editing the controls within Steam to make playing more comfortable as desired.
+
 ## Troubleshooting &  Issues
 **Problem:** When I go to install Sonic R I get a "This app can't run on your PC" error.
 
@@ -51,8 +69,7 @@ Lastly, the Start Menu shortcuts can be removed by right clicking one of them in
 
 **Q:** Is this speedrun legal?
 
-**A:** [Not yet](https://www.speedrun.com/Sonic_R/thread/zc91h) but a speedrun category could be made, if there's enough community push for it. Technically, neither ADX Music or RemoveStrays are code based mods, and thus have no effect on how the game performs or behaves in any way, outside of extremely minor, nearly unnoticeable cosmetic differences in UI Textures and Audio Quality. The only changes to the game made by Sonic R Mod Loader are also purely cosmetic, save for fixing a bug that caused terrible frame rates on any modern Windows OS. (I think should get a pass because it's just making the game behave like it's supposed to on any machine, and the bug is caused by changes to Windows and changes to how hardware works, not the game itself, which normally performs as expected on a period computer with the appropriate Windows OS.)
-
+**A:** [No, but I requested it.](https://www.speedrun.com/Sonic_R/thread/zc91h) A speedrun category could be made, but it hasn't thus far. Technically, neither ADX Music or RemoveStrays are code based mods, and thus have no effect on how the game performs or behaves in any way, outside of extremely minor, nearly unnoticeable cosmetic differences in UI Textures and Audio Quality.
 
 **Q:** 2004 port? Why haven't I heard of this before?
 
